@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-# Kills the process of 7-highlander.
+#script prints some text in a loop
+function catchKill(){ 
+        echo "I am invisible!!!"
+}
 
-pkill -f 7-highlander
+while true
+do
+          echo "To infinity and beyond"
+          sleep 2
+          trap catchKill SIGTERM
+done
