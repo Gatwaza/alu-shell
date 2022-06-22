@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #script list just bash process running with their pid
-pgrep '^bash$' -1
+pgrep '^bash$' -l
 
