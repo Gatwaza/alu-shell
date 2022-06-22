@@ -8,7 +8,7 @@ function catchSIGTERM(){
 	kill -9 "$TEMPTWO"
 }
 
-function catch SIGINT(){
+function catchSIGINT(){
          echo "Y U no love me?!"
 }
 
